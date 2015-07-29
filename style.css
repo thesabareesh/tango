@@ -100,13 +100,13 @@ td{
 /* fresh with missed*/
 .fresh{   
      cursor: URL("https://cloud.githubusercontent.com/assets/12660118/8960207/820eb61a-362c-11e5-9de5-5e3649688d9f.gif"), default;
-    background: url("images/grasswithtrees.jpg") repeat-y ;
+    background: url("https://cloud.githubusercontent.com/assets/12660118/8960374/377fea0a-362d-11e5-9277-e85d46ae4277.jpg") repeat-y ;
 }
 
 /* fresh1 with missed1*/
 .fresh1{
      cursor: URL("https://cloud.githubusercontent.com/assets/12660118/8960207/820eb61a-362c-11e5-9de5-5e3649688d9f.gif"), default;
-    background: url("https://cloud.githubusercontent.com/assets/12660118/8960374/377fea0a-362d-11e5-9277-e85d46ae4277.jpg") repeat-y ;
+    background: url("https://cloud.githubusercontent.com/assets/12660118/8960327/05feb88a-362d-11e5-8c34-ea499de1cea4.jpg") repeat-y ;
 }
 
 .busted{
