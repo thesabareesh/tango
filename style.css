@@ -124,6 +124,7 @@ td{
 
 .missed1{
     background-color:aliceblue;
+    
     cursor: not-allowed;
     background: url("https://cloud.githubusercontent.com/assets/12660118/8960260/ab85a5f8-362c-11e5-8718-5cbb722c4f72.jpg") repeat;
 }
