@@ -1,0 +1,226 @@
+<html>
+    
+    <head>
+   
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script  type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    
+    <body>
+        
+        <p id="welcome-msg">Tango.Welcome.description</p>
+        
+        <div id="header_div" hidden="hidden">
+            <table align="center" id="header"> 
+                <tr><td>Co-ords : </td> <td> <p id="ordinates"> </p></td>
+                    <td>Tries:</td> <td><p id="try_count"></p></td>
+                    <td>Misseds :</td> <td><p id="miss_count"></p></td>
+                    <td>Hits:</td> <td><p id="hit_count"></p></td>
+                </tr>
+            </table> 
+        </div>
+
+        <div id="setter_div" hidden="hidden">     
+                 <b>My Navy</b>
+            <table  align="center" id="setter" border="0px" >
+                <tr>
+                    <td id="01" class="unset"></td>
+                    <td id="02" class="unset"></td>
+                    <td id="03" class="unset"></td>
+                    <td id="04" class="unset"></td>
+                    <td id="05" class="unset"></td>
+                    <td id="06" class="unset"></td>
+                    <td id="07" class="unset"></td>
+                    <td id="08" class="unset"></td>
+                    <td id="09" class="unset"></td>
+                    <td id="10" class="unset"></td>
+                </tr>
+            
+                <tr>
+                    <td id="11" class="unset"></td>
+                    <td id="12" class="unset"></td>
+                    <td id="13" class="unset"></td>
+                    <td id="14" class="unset"></td>
+                    <td id="15" class="unset"></td>
+                    <td id="16" class="unset"></td>
+                    <td id="17" class="unset"></td>
+                    <td id="18" class="unset"></td>
+                    <td id="19" class="unset"></td>
+                    <td id="20" class="unset"></td>
+                </tr>
+        
+                <tr>
+                    <td id="21" class="unset"></td>
+                    <td id="22" class="unset"></td>
+                    <td id="23" class="unset"></td>
+                    <td id="24" class="unset"></td>
+                    <td id="25" class="unset"></td>
+                    <td id="26" class="unset"></td>
+                    <td id="27" class="unset"></td>
+                    <td id="28" class="unset"></td>
+                    <td id="29" class="unset"></td>
+                    <td id="30" class="unset"></td>
+                </tr>
+            
+                <tr>
+                    <td id="31" class="unset"></td>
+                    <td id="32" class="unset"></td>
+                    <td id="33" class="unset"></td>
+                    <td id="34" class="unset"></td>
+                    <td id="35" class="unset"></td>
+                    <td id="36" class="unset"></td>
+                    <td id="37" class="unset"></td>
+                    <td id="38" class="unset"></td>
+                    <td id="39" class="unset"></td>
+                    <td id="40" class="unset"></td>
+                </tr>
+            
+                <tr>
+                    <td id="41" class="unset"></td>
+                    <td id="42" class="unset"></td>
+                    <td id="43" class="unset"></td>
+                    <td id="44" class="unset"></td>
+                    <td id="45" class="unset"></td>
+                    <td id="46" class="unset"></td>
+                    <td id="47" class="unset"></td>
+                    <td id="48" class="unset"></td>
+                    <td id="49" class="unset"></td>
+                    <td id="50" class="unset"></td>
+                </tr>
+        
+                <tr>
+                    <td id="51" class="unset"></td>
+                    <td id="52" class="unset"></td>
+                    <td id="53" class="unset"></td>
+                    <td id="54" class="unset"></td>
+                    <td id="55" class="unset"></td>
+                    <td id="56" class="unset"></td>
+                    <td id="57" class="unset"></td>
+                    <td id="58" class="unset"></td>
+                    <td id="59" class="unset"></td>
+                    <td id="60" class="unset"></td>
+                </tr>
+            
+                <tr>
+                    <td id="61" class="unset"></td>
+                    <td id="62" class="unset"></td>
+                    <td id="63" class="unset"></td>
+                    <td id="64" class="unset"></td>
+                    <td id="65" class="unset"></td>
+                    <td id="66" class="unset"></td>
+                    <td id="67" class="unset"></td>
+                    <td id="68" class="unset"></td>
+                    <td id="69" class="unset"></td>
+                    <td id="70" class="unset"></td>
+                </tr>
+                
+      
+            </table>
+            <p id="confirm-mines"> Confirm setting</p>  
+        </div>
+        
+        <div id="board_div" hidden="hidden">  
+             <b>My opponent</b>
+            <table align="center" id="board" border="0px"  >
+                <tr>
+                    <td id="01" class="fresh"></td>
+                    <td id="02" class="fresh1"></td>
+                    <td id="03" class="fresh"></td>
+                    <td id="04" class="fresh1"></td>
+                    <td id="05" class="fresh"></td>
+                    <td id="06" class="fresh1"></td>
+                    <td id="07" class="fresh"></td>
+                    <td id="08" class="fresh"></td>
+                    <td id="09" class="fresh"></td>
+                    <td id="10" class="fresh"></td>
+                </tr>
+            
+                <tr>
+                    <td id="11" class="fresh"></td>
+                    <td id="12" class="fresh"></td>
+                    <td id="13" class="fresh"></td>
+                    <td id="14" class="fresh"></td>
+                    <td id="15" class="fresh1"></td>
+                    <td id="16" class="fresh"></td>
+                    <td id="17" class="fresh"></td>
+                    <td id="18" class="fresh1"></td>
+                    <td id="19" class="fresh"></td>
+                    <td id="20" class="fresh1"></td>
+                </tr>
+        
+                <tr>
+                    <td id="21" class="fresh"></td>
+                    <td id="22" class="fresh"></td>
+                    <td id="23" class="fresh"></td>
+                    <td id="24" class="fresh"></td>
+                    <td id="25" class="fresh"></td>
+                    <td id="26" class="fresh"></td>
+                    <td id="27" class="fresh1"></td>
+                    <td id="28" class="fresh"></td>
+                    <td id="29" class="fresh"></td>
+                    <td id="30" class="fresh1"></td>
+                </tr>
+            
+                <tr>
+                    <td id="31" class="fresh"></td>
+                    <td id="32" class="fresh"></td>
+                    <td id="33" class="fresh"></td>
+                    <td id="34" class="fresh"></td>
+                    <td id="35" class="fresh"></td>
+                    <td id="36" class="fresh1"></td>
+                    <td id="37" class="fresh"></td>
+                    <td id="38" class="fresh1"></td>
+                    <td id="39" class="fresh"></td>
+                    <td id="40" class="fresh"></td>
+                </tr>
+            
+                <tr>
+                    <td id="41" class="fresh"></td>
+                    <td id="42" class="fresh1"></td>
+                    <td id="43" class="fresh1"></td>
+                    <td id="44" class="fresh"></td>
+                    <td id="45" class="fresh"></td>
+                    <td id="46" class="fresh"></td>
+                    <td id="47" class="fresh"></td>
+                    <td id="48" class="fresh1"></td>
+                    <td id="49" class="fresh"></td>
+                    <td id="50" class="fresh1"></td>
+                </tr>
+        
+                <tr>
+                    <td id="51" class="fresh1"></td>
+                    <td id="52" class="fresh"></td>
+                    <td id="53" class="fresh1"></td>
+                    <td id="54" class="fresh1"></td>
+                    <td id="55" class="fresh"></td>
+                    <td id="56" class="fresh"></td>
+                    <td id="57" class="fresh"></td>
+                    <td id="58" class="fresh"></td>
+                    <td id="59" class="fresh1"></td>
+                    <td id="60" class="fresh"></td>
+                </tr>
+            
+                <tr>
+                    <td id="61" class="fresh1"></td>
+                    <td id="62" class="fresh"></td>
+                    <td id="63" class="fresh"></td>
+                    <td id="64" class="fresh1"></td>
+                    <td id="65" class="fresh"></td>
+                    <td id="66" class="fresh"></td>
+                    <td id="67" class="fresh1"></td>
+                    <td id="68" class="fresh"></td>
+                    <td id="69" class="fresh"></td>
+                    <td id="70" class="fresh1"></td>
+                </tr>
+        
+              </table>
+        </div>
+        
+    </body>
+    
+    
+        
+    
+
+</html>
