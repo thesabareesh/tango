@@ -79,16 +79,16 @@ td{
 
 .set{
     /*background-color: brown;*/
-    background: url("images/grassandtank.jpg") repeat ;
+    background: url("https://cloud.githubusercontent.com/assets/12660118/8960411/6f094dd6-362d-11e5-92ff-e7758b6c6514.jpg") repeat ;
     background-position: center;
-    cursor: URL("images/remove-tank.png"), default;
+    cursor: URL("https://cloud.githubusercontent.com/assets/12660118/8960228/95acf3bc-362c-11e5-8489-0a8c559b8eee.png"), default;
    
 }
 
 .unset{
     /*background-color:blanchedalmond;*/
-     background: url("images/grass.jpg") repeat ;
-        cursor: URL("images/tank.gif"), default;
+     background: url("https://cloud.githubusercontent.com/assets/12660118/8960194/73a9739e-362c-11e5-8070-3a84229ed3c5.jpg") repeat ;
+        cursor: URL("https://cloud.githubusercontent.com/assets/12660118/8960359/287d42e6-362d-11e5-9745-b844ba4c88ec.gif"), default;
     
 }
 
@@ -99,31 +99,31 @@ td{
 
 /* fresh with missed*/
 .fresh{   
-     cursor: URL("images/aims.gif"), default;
+     cursor: URL("https://cloud.githubusercontent.com/assets/12660118/8960207/820eb61a-362c-11e5-9de5-5e3649688d9f.gif"), default;
     background: url("images/grasswithtrees.jpg") repeat-y ;
 }
 
 /* fresh1 with missed1*/
 .fresh1{
-     cursor: URL("images/aims.gif"), default;
-    background: url("images/grasswithtree.jpg") repeat-y ;
+     cursor: URL("https://cloud.githubusercontent.com/assets/12660118/8960207/820eb61a-362c-11e5-9de5-5e3649688d9f.gif"), default;
+    background: url("https://cloud.githubusercontent.com/assets/12660118/8960374/377fea0a-362d-11e5-9277-e85d46ae4277.jpg") repeat-y ;
 }
 
 .busted{
     background-color: brown;
     cursor: not-allowed;
-     background: url("images/blast.gif") ;
+     background: url("https://cloud.githubusercontent.com/assets/12660118/8960515/f3d4c914-362d-11e5-9eba-f7f5b4ddff93.gif") ;
     background-size: contain;
 }
 
 .missed{
     background-color:aliceblue;
     cursor: not-allowed;
-    background: url("images/grasswithdebris.jpg") repeat;
+    background: url("https://cloud.githubusercontent.com/assets/12660118/8960541/0d13c088-362e-11e5-9e7f-502372e796dc.jpg") repeat;
 }
 
 .missed1{
     background-color:aliceblue;
     cursor: not-allowed;
-    background: url("images/grasswithlessdebris.jpg") repeat;
+    background: url("https://cloud.githubusercontent.com/assets/12660118/8960260/ab85a5f8-362c-11e5-8718-5cbb722c4f72.jpg") repeat;
 }
