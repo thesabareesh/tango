@@ -1,0 +1,129 @@
+                                                        /*parent stylings*/
+
+body{
+    background-color: blanchedalmond;
+  
+}
+
+#header{
+    
+    display: block;
+    margin-top: 0px;
+    width: 800px;
+    border: 1px solid black;
+    height: 20px;
+}
+
+                                                /* board table stylings*/
+
+#setter{
+    position: fixed;
+    border-collapse: collapse;
+    align: center;
+    width: 1220;  
+    height: 470;
+    margin-top: 0px ;
+    right: 0px;
+    top: 0px;   
+}
+
+#board{
+    position: fixed;
+   border-collapse: collapse;
+   align: center;
+    width: 1220;  
+    height: 470;
+   /* margin: 10px auto;*/
+    margin-top: 0px ;
+    right: 0px;
+    top: 0px;
+   
+}
+
+/*.hover{
+ 
+    background-color : salmon;
+}*/
+
+#welcome-msg{
+    margin-top: 300px ;
+   
+    cursor: pointer;
+    text-align: center;
+}
+
+#confirm-mines{
+     cursor: pointer;
+    
+}
+
+#setter{
+    top: 0px;                               
+    position: relative;
+}
+
+td{
+    width:80;
+    height: 50;
+    font-size: 16px;
+    text-align: right;
+    align-content: center;   
+    /*border-radius: 5px;*/
+}
+
+#board{
+    top: 0px;
+    position: relative;
+}                                                     /* setter table stylings*/
+
+
+.set{
+    /*background-color: brown;*/
+    background: url("images/grassandtank.jpg") repeat ;
+    background-position: center;
+    cursor: URL("images/remove-tank.png"), default;
+   
+}
+
+.unset{
+    /*background-color:blanchedalmond;*/
+     background: url("images/grass.jpg") repeat ;
+        cursor: URL("images/tank.gif"), default;
+    
+}
+
+.exhausted{
+    cursor: not-allowed;
+}
+
+
+/* fresh with missed*/
+.fresh{   
+     cursor: URL("images/aims.gif"), default;
+    background: url("images/grasswithtrees.jpg") repeat-y ;
+}
+
+/* fresh1 with missed1*/
+.fresh1{
+     cursor: URL("images/aims.gif"), default;
+    background: url("images/grasswithtree.jpg") repeat-y ;
+}
+
+.busted{
+    background-color: brown;
+    cursor: not-allowed;
+     background: url("images/blast.gif") ;
+    background-size: contain;
+}
+
+.missed{
+    background-color:aliceblue;
+    cursor: not-allowed;
+    background: url("images/grasswithdebris.jpg") repeat;
+}
+
+.missed1{
+    background-color:aliceblue;
+    cursor: not-allowed;
+    background: url("images/grasswithlessdebris.jpg") repeat;
+}
